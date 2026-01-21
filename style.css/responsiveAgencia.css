@@ -1,0 +1,153 @@
+@media (max-width: 480px) {
+
+    .container {
+        margin: 0 auto;
+    }
+
+    body .logo-schild {
+        width: 130px;
+        height: 40px;
+    }
+
+    main h2 {
+        font-size: 28px;
+        margin-bottom: 13px !important; 
+    }
+
+    main p {
+        font-size: 16px;
+    }
+
+    header .header-inner {
+        display: block;
+        padding: 10px;
+        width: 100%;
+    }
+
+    header .header-inner .logo {
+        display: flex;
+        justify-content: center;
+    }
+
+    header .nav-lista {
+        margin: 12px 0 3px;
+        padding: 0 5px;
+    }
+
+    header .nav-link.cta {
+        padding: 3px 7px;
+        margin-left: 10px;
+    }
+
+    main #inicio {
+        padding: 30px;
+    }
+
+    main #inicio .hero-grid {
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+    }
+
+    main #inicio .hero-grid .titulo-inicio h1 {
+        font-size: 37px;
+        margin-bottom: 18px;
+    }
+
+    main #inicio .hero-grid .titulo-inicio .inicio-button {
+        margin-left: 80px;
+    }
+
+    main #servicos {
+        padding: 30px 0;
+    }
+
+    main #servicos .container .section-title {
+        margin-bottom: 30px;
+    }
+
+    main #servicos .container #container-grids {
+        display: flex;
+        flex-direction: column;
+    }
+
+    main #servicos .container #container-grids p {
+        font-size: 15px !important;
+        margin-bottom: 8px;
+    }
+
+    main #servicos .container #container-grids .card {
+        padding: 12px;
+    }
+
+    main #resultados {
+        padding: 30px 0;
+    }
+
+    main #resultados .container .section-title {
+        margin-bottom: 30px;
+    }
+
+    main #clientes {
+        padding: 30px 0;
+    }
+
+    main #clientes .container .section-title {
+        margin-bottom: 30px;
+    }
+
+    main #clientes .container #container-comentarios {
+        display: flex;
+        flex-direction: column;
+    }
+
+    main #clientes .container #container-comentarios .comentarios .avatar {
+        width: 50px;
+        margin-left: 35px;
+    }
+
+    main #contato {
+        padding: 30px 0;
+    }
+
+    main #contato .contato-box {
+        margin: 0 20px 0;
+        padding: 11px;
+    }
+
+    main #contato .contato-box .button-email {
+        padding: 3px 19px;
+    }
+
+    .footer {
+        padding: 10px 0;
+    }
+
+    .footer .footer-inner {
+        padding: 5px;
+        margin-bottom: 10px;
+    }
+
+    .footer .footer-inner .logo-footer {
+        margin-bottom: 5px;
+    }
+
+    .footer .footer-inner .footer-info {
+        margin-left: 30px;
+    }
+
+    .footer .footer-inner .footer-logo {
+        display: flex;
+        flex-direction: column;
+        margin-left: 20px;
+    }
+
+    .footer .footer-inner span, a {
+        font-size: 14px;
+    }
+
+    .footer .footer-inner .footer-logo img {
+        width: 120px !important;
+        height: 35px !important;
+    }
+}
